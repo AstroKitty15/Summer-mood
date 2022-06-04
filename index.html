@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./css/fonts/sofia pro/stylesheet.css">
+    <link rel="stylesheet" href="./css/fonts/circular/stylesheet.css">
+    <title>Caped</title>
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar-logo">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="Caped Logo">
+            </div>
+        </div>
+        
+        <nav class="sidebar-nav nav">
+            <h2 class="nav-title">Explore</h2>
+            <ul class="nav-list">
+                <li><a href="#"><img src="./img/nav-icons/1.png" alt="New In">New In</a></li>
+                <li><a href="#"><img src="./img/nav-icons/2.png" alt="Clothing">Clothing</a></li>
+                <li><a href="#"><img src="./img/nav-icons/3.png" alt="Shoes">Shoes</a></li>
+                <li><a href="#"><img src="./img/nav-icons/4.png" alt="Accessories">Accessories</a></li>
+                <li><a href="#"><img src="./img/nav-icons/5.png" alt="Activewear">Activewear</a></li>
+                <li><a href="#"><img src="./img/nav-icons/6.png" alt="Gifts">Gifts & Living</a></li>
+                <li><a href="#"><img src="./img/nav-icons/7.png" alt="Inspiration">Inspiration</a></li>
+            </ul>
+        </nav>
+
+        <div class="sidebar-help">
+            <a class="help" href="#">
+                <img class="help-icon" src="./img/icons/help-icon.svg" alt="Help">
+                Help Center
+            </a>
+        </div>
+    </div>
+
+    <main class="main">
+        <header class="header">
+            <div class="header-search">
+                <form class="search">
+                    <label class="search-label">
+                        <img class="search-icon" src="./img/icons/search-icon.svg" alt="search">
+                        <input class="search-input" type="text" placeholder="Search store">
+                    </label>
+                </form>
+            </div>
+            <div class="header-links">
+                <nav class="nav-header">
+                    <ul class="nav-header-list">
+                        <li class="nav-header-link-text active"><a href="#">products</a></li>
+                        <li class="nav-header-link-text"><a href="#">story</a></li>
+                        <li class="nav-header-link-text"><a href="#">manufacturing</a></li>
+                        <li class="nav-header-link-text"><a href="#">packaging</a></li>
+
+                        <li class="nav-header-link-icon">
+                            <a href="#"><img src="./img/icons/busket.svg" alt="busket"></a>
+                        </li>
+                        <li class="nav-header-link-icon">
+                            <a href="#"><img src="./img/icons/person.svg" alt="person"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="cards-wrapper">
+            <div class="cards-wrapper-row">
+
+                <div class="cards-wrapper-col col-vertical">
+                    <a href="#" class="card card-horizontal card-sale" style="background-image: url(./../img/cards/w1.svg);">
+                        <span>GET UP TO 50% OFF</span>
+                    </a>
+                    <a href="#" class="card card-horizontal card-sale" style="background-image: url(./../img/cards/w2.svg);">
+                        <span class="visually-hidden">Summer sale</span>
+                    </a>
+                </div>
+                <div class="cards-wrapper-col col-horizontal">
+
+                    <div class="card card-vertical card-product">
+                        <button class="card-product-fav-btn">
+                            <svg width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.0246 7.13421C0.577287 5.63772 0.664165 3.15576 2.27968 1.77677C3.65989 0.600698 5.75089 0.790613 7.05863 2.14265L7.63529 2.73688L7.99411 3.10662L8.35293 2.73688L8.92982 2.14242C10.2407 0.78978 12.3283 0.600879 13.7084 1.77665C15.324 3.15563 15.4109 5.63763 13.9608 7.13411L8.29659 12.9827M2.0246 7.13421L7.68871 12.9827C7.85815 13.1576 8.12714 13.1576 8.29659 12.9827M2.0246 7.13421L8.29659 12.9827"/>
+                                </svg>
+                        </button>
+                        <a class="card-product-link" href="#">
+                            <img class="card-product-img" src="./img/cards/card1.jpg" alt="product">
+                        </a>
+                    </div>
+
+                    <div class="card card-vertical card-product">
+                        <button class="card-product-fav-btn">
+                            <svg width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.0246 7.13421C0.577287 5.63772 0.664165 3.15576 2.27968 1.77677C3.65989 0.600698 5.75089 0.790613 7.05863 2.14265L7.63529 2.73688L7.99411 3.10662L8.35293 2.73688L8.92982 2.14242C10.2407 0.78978 12.3283 0.600879 13.7084 1.77665C15.324 3.15563 15.4109 5.63763 13.9608 7.13411L8.29659 12.9827M2.0246 7.13421L7.68871 12.9827C7.85815 13.1576 8.12714 13.1576 8.29659 12.9827M2.0246 7.13421L8.29659 12.9827"/>
+                                </svg>
+                        </button>
+                        <a class="card-product-link" href="#">
+                            <img class="card-product-img" src="./img/cards/card2.jpg" alt="product">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="cards-wrapper-row">
+
+                <div class="cards-wrapper-col col-horizontal">
+                    <div class="card card-vertical card-product">
+                        <button class="card-product-fav-btn">
+                            <svg width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.0246 7.13421C0.577287 5.63772 0.664165 3.15576 2.27968 1.77677C3.65989 0.600698 5.75089 0.790613 7.05863 2.14265L7.63529 2.73688L7.99411 3.10662L8.35293 2.73688L8.92982 2.14242C10.2407 0.78978 12.3283 0.600879 13.7084 1.77665C15.324 3.15563 15.4109 5.63763 13.9608 7.13411L8.29659 12.9827M2.0246 7.13421L7.68871 12.9827C7.85815 13.1576 8.12714 13.1576 8.29659 12.9827M2.0246 7.13421L8.29659 12.9827"/>
+                                </svg>
+                        </button>
+                        <a class="card-product-link" href="#">
+                            <img class="card-product-img" src="./img/cards/card3.jpg" alt="product">
+                        </a>
+                    </div>
+                    <div class="card card-vertical card-product">
+                        <button class="card-product-fav-btn">
+                            <svg width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.0246 7.13421C0.577287 5.63772 0.664165 3.15576 2.27968 1.77677C3.65989 0.600698 5.75089 0.790613 7.05863 2.14265L7.63529 2.73688L7.99411 3.10662L8.35293 2.73688L8.92982 2.14242C10.2407 0.78978 12.3283 0.600879 13.7084 1.77665C15.324 3.15563 15.4109 5.63763 13.9608 7.13411L8.29659 12.9827M2.0246 7.13421L7.68871 12.9827C7.85815 13.1576 8.12714 13.1576 8.29659 12.9827M2.0246 7.13421L8.29659 12.9827"/>
+                                </svg>
+                        </button>
+                        <a class="card-product-link" href="#">
+                            <img class="card-product-img" src="./img/cards/card4.jpg" alt="product">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards-wrapper-col col-vertical">
+
+                    <a href="#" class="card card-horizontal card-section" style="background-image: url(./img/cards/card5.jpg);">
+                        <h4 class="card-section-title">Trending & Hot</h4>
+                        <p class="card-section-desc">A collection of most trending items.</p>
+                    </a>
+                    <a href="#" class="card card-horizontal card-section card-section-red" style="background-image: url(./img/cards/card6.jpg);">
+                        <h4 class="card-section-title">Buy it for the first time</h4>
+                        <p class="card-section-desc">New in store. Try it before anyone else.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
